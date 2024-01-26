@@ -1,0 +1,14 @@
+empty_list = []
+first_semester_courses = ['MSDL', 'CRT', 'CTPS', 'DEGC']
+print(first_semester_courses)
+print(first_semester_courses[0])
+print(first_semester_courses[-1])
+print(first_semester_courses[0:2])
+print(first_semester_courses[:2])
+
+del first_semester_courses[2]
+print(first_semester_courses)
+print(first_semester_courses[2])
+
+first_semester_courses.append(1)
+print(first_semester_courses)
